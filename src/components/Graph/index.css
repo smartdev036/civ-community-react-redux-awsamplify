@@ -1,0 +1,391 @@
+.customGraph {
+  padding: 10px;
+  width: 650px;
+  max-width: 650px;
+  min-width: 650px;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+.customGraph .searchBar {
+  /* border: 1px solid red; */
+  padding: 2px 0;
+}
+.customGraph .searchBar button {
+  width: 50px;
+  height: 22px;
+  border-radius: 10px;
+  margin-left: 5px;
+  border: none;
+  background-color: rgb(255, 120, 0);
+  color: white;
+  font-size: 12px;
+  margin-top: 2px;
+}
+.customGraph .searchBar button:hover {
+  transform: scale(1.03);
+}
+.customGraph .inputPart input {
+  box-sizing: border-box;
+  width: 60px;
+  margin: 0;
+  text-align: center;
+  padding: 2px 0;
+  font-size: 10px;
+  font-weight: bold;
+  border: 1px solid rgb(133, 133, 133);
+  border-radius: 2px;
+}
+
+.customGraph .mainBody {
+  /* border: 5px solid #ccc; */
+  background-color: #f5f5f5;
+  border-radius: 10.14px;
+  padding: 8px;
+}
+
+
+.customGraph .mainBody2 {
+  background-color: #f5f5f5;
+  border-radius: 10.14px;
+  padding: 30px 0 30px 0;
+}
+
+.customGraph .MainIcon {
+  width: 60px;
+  height: 60px;
+}
+.customGraph .title {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.customGraph .title2 {
+  margin-top: 0px;
+  /* margin-left: 20px; */
+}
+
+.customGraph .title p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.customGraph .title2 p {
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.customGraph .info {
+  position: relative;
+  float: right;
+  margin-top: -60px;
+  margin-right: 10px;
+}
+
+.customGraph .info2 {
+  position: relative;
+  float: right;
+  margin-top: -45px;
+  margin-right: 10px;
+  /* opacity: .4; */
+}
+
+.flex {
+  display: flex;
+}
+.flex-row {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.flex-row2 {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  align-items: center;
+}
+
+.flex-justify-center {
+  justify-content: end;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.customGraph .info .locationInfo {
+  font-size: 18px;
+  font-weight: normal;
+  margin: 0;
+}
+.customGraph .info .LocationIcon:hover {
+  transform: scale(1.1);
+}
+
+.customGraph .info .weatherInfo {
+  font-size: 22px;
+  font-weight: 400;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+.customGraph .info .weatherInfo-celsius {
+  font-size: 12px;
+  margin-left: 6px;
+  border-left: 1px solid #888;
+  padding-left: 6px;
+  letter-spacing: 2px;
+}
+
+.customGraph .info .LocationIcon,
+.customGraph .info .WeatherIcon {
+  width: 35px;
+  height: 35px;
+}
+.customGraph .InfoIcon {
+  width: 20px;
+  height: 20px;
+  vertical-align: sub;
+  margin-left: 5px;
+}
+
+.border-right {
+  border-right: 2px solid #ccc;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.font-xl {
+  font-size: 60px !important;
+  font-weight: 700;
+}
+.font-lg {
+  font-size: 28px;
+  margin: 2px;
+}
+.font-lg2 {
+  font-size: 28px;
+  margin: 10px;
+}
+.font-sm {
+  font-size: 14px;
+  margin: 2px 24px;
+  font-weight: normal;
+}
+
+p {
+  margin: 0;
+}
+
+.circle-bg {
+  width: 140px;
+  height: 140px;
+  line-height: 140px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  vertical-align: center;
+  /* background: linear-gradient(70deg, #fafe38, #ffb330, #ff3900) !important; */
+}
+
+.panel-right {
+  text-align: center;
+  padding: 0 40px;
+}
+
+.color-slider {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 10px;
+  outline: none;
+  transition: opacity 0.2s;
+  background: linear-gradient(
+    to right,
+    rgb(30, 200, 80) 0%,
+    rgb(255, 255, 0) 25%,
+    rgb(255, 150, 0) 50%,
+    rgb(255, 0, 0) 75%,
+    rgb(128, 0, 170) 100%
+  );
+  border-radius: 10px;
+}
+.color-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  border-radius: 40px;
+  border: 2.5px solid black;
+}
+
+.simpleinfo {
+  font-size: 18px;
+  font-weight: normal;
+  margin-left: 20px;
+  line-height: 1.5;
+}
+
+.font-bold {
+  font-weight: bold;
+  padding: 10px;
+}
+
+.mainContent {
+  padding-top: 20px;
+  width: 500px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.learnmore {
+  height: 30px;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  
+}
+.learnmore:hover a{
+  color:orange;
+}
+.learnmore p {
+  float: right;
+  margin-right: 30px;
+  font-size: 20px;
+  color: #666;
+  padding-top: 10px;
+}
+.Mytooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.Mytooltip .Mytooltiptext {
+  /* visibility: normal; */
+  visibility: hidden;
+  width: 320px;
+  border: 1px solid #555;
+  text-align: left;
+  color: black;
+  border-radius: 6px;
+  padding: 5px 10px;
+  font-size: 12px;
+
+  /* Position the Mytooltip */
+  position: absolute;
+  right: 0;
+  top: 20px;
+  z-index: 1;
+  background-color: white;
+}
+.Mytooltip .Mytooltiptext > p {
+  padding-left: 0px;
+  text-indent: 0px;
+}
+
+.Mytooltip:hover .Mytooltiptext {
+  visibility: visible;
+}
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.localAreaInfectionRisk {
+  font-size: 18px;
+  font-weight: medium;
+  margin: 0;
+}
+
+.today {
+  font-size: 22px;
+  margin-top: 16px;
+}
+
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
+}
+
+.historicalLayout {
+  width: inherit;
+  height: 60px;
+}
+
+.appList {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  /* left: 340px; */
+  /* top: 425px; */
+
+  background: url(/src/images/right-arrow.png);
+  /* transform: rotate(-90deg); */
+}
+
+.chevron::before {
+	border-style: solid;
+	border-width: 0.25em 0.25em 0 0;
+	content: '';
+	display: inline-block;
+	/* height: 1.45em; */
+	left: 0.15em;
+	position: relative;
+	top: 1em;
+	transform: rotate(-45deg);
+	/* vertical-align:middle; */
+	width: 1.25em;
+  color: black !important;
+  opacity: .5;
+}
+
+.chevron.right:before {
+	left: 0;
+  height: 1.3em;
+	transform: rotate(45deg);
+}
+
+.chevron.bottom:before {
+	top: 0;
+	transform: rotate(135deg);
+}
+
+.chevron.left:before {
+	left: 0.25em;
+  height: 1.25em;
+	transform: rotate(-135deg);
+  padding: 10px;
+  position: fixed !important;
+  left: 30px;
+}
+
+.appContainer {
+  padding: 20px;
+  width: 650px;
+  max-width: 650px;
+  min-width: 650px;
+  /* border: 1px solid red; */
+  box-sizing: border-box;
+}
+
+.appContainer .appList {
+  /* border: 5px solid #ccc; */
+  background-color: #f5f5f5;
+  border-radius: 10.14px;
+  padding: 8px;
+}

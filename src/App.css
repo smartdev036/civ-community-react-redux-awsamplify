@@ -1,0 +1,27 @@
+.App {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: white;
+}
+
+body {
+  margin: 0;
+}
+
+.bd-1{
+  border: 1px solid black;
+}
+
+.m-0{
+  margin: 0;
+}
+.bd-red {
+  border: 5px solid red;
+  box-sizing: border-box;
+}
+
+.divider1
+{
+    padding: 10px;
+}
