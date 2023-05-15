@@ -1,0 +1,51 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Amplify Function - County",
+      "program": "${workspaceFolder}/.vscode/debug-county.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Amplify Function - ZipCode",
+      "program": "${workspaceFolder}/.vscode/debug-zipcode.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "name": "Amplify Function - Historical",
+      "program": "${workspaceFolder}/.vscode/debug-historical.js",
+      "request": "launch",
+      "skipFiles": ["<node_internals>/**"],
+      "type": "node"
+    },
+    {
+      "type": "node",
+      "request": "launch",
+      "name": "Lambda Function - ZipCode",
+      "program": "C:\\Users\\ro\\AppData\\Roaming\nvm\\v14.19.3\\amplify",
+      "args": [
+        "mock",
+        "function",
+        "zipcodeFunction",
+        "--event",
+        "src/event.json",
+        "--timeout",
+        "0"],
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "chrome",
+      "request": "launch",
+      "name": "Launch Program",
+      "skipFiles": ["<node_internals>/**"],
+      "url": "http://localhost:3000"
+    }
+  ]
+}
